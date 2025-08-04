@@ -1,4 +1,4 @@
-# 🕵️‍♂️ Project Reviewer – Playwright + Node.js Automation Tool
+## 🕵️‍♂️ Project Reviewer – Playwright + Node.js Automation Tool
 
 This tool reviews and tags web projects automatically using Playwright and Node.js. It detects the frontend framework (React, Next.js, Vanilla), validates if the project demo is live, takes a screenshot, checks for interactiveness, and handles broken URLs gracefully.
 
