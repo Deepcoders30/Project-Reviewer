@@ -27,6 +27,7 @@ project-reviewer/
 │   ├── project1.png         # Example: Screenshot files
 │   └── project2.png
 └── README.md                # Project documentation
+└── timing_logs.txt          # Time each project review is taking
 ```
 
 ## 📦 Prerequisites
@@ -42,11 +43,12 @@ project-reviewer/
    ```bash
    git clone https://github.com/your-username/project-reviewer.git
    cd project-reviewer
-
+   ```
 2. Install the required Node.js dependencies:
 
    ```bash
    npm install
+   ```
 
 3. Install Playwright browsers:
 
@@ -72,8 +74,8 @@ project-reviewer/
        }
      ]
    }
-
-2. Run this command and `output.json` file will be created automatically inside root folder:
+   ```
+2. Run this command and the `output.json` file will be created automatically inside the root folder:
    ```bash
    node review_projects.js input.json > output.json
    ```
