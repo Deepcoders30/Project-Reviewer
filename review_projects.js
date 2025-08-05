@@ -226,6 +226,6 @@ const reviewProject = async () => {
 
 //Script execution starts here
 (async () => {
-//   await reviewProject(); // Reviews the projects
+  await reviewProject(); // Reviews the projects
   await auditProject(projects); // Lighthouse audits
 })();
