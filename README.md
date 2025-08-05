@@ -30,7 +30,7 @@ project-reviewer/
 ├── input.json                # Input file with `candidate_id` and project URLs
 ├── output.json               # Output file with review results (auto-generated)
 ├── review_projects.js        # Main script to run the review
-├── lighthouse_audit.js       # Main script to run the review
+├── lighthouse_audit.js       # lighthouse audit script
 └── timing_logs.txt           # Time each project review is taking
 ```
 
