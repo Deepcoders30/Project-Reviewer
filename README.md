@@ -20,14 +20,18 @@ For each project with a demo_url, the tool:
 ```
 project-reviewer/
 │
-├── input.json               # Input file with `candidate_id` and project URLs
-├── output.json              # Output file with review results (auto-generated)
-├── review_projects.js       # Main script to run the review
-├── screenshots/             # Stores screenshots
-│   ├── project1.png         # Example: Screenshot files
+├── lighthouse_reports/       # Stores lighthouse audit reports
+│   ├── project1.json        
+│   └── project2.json
+├── screenshots/              # Stores screenshots
+│   ├── project1.png          # Example: Screenshot files
 │   └── project2.png
-└── README.md                # Project documentation
-└── timing_logs.txt          # Time each project review is taking
+└── README.md                 # Project documentation
+├── input.json                # Input file with `candidate_id` and project URLs
+├── output.json               # Output file with review results (auto-generated)
+├── review_projects.js        # Main script to run the review
+├── lighthouse_audit.js       # Main script to run the review
+└── timing_logs.txt           # Time each project review is taking
 ```
 
 ## 📦 Prerequisites
