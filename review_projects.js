@@ -195,7 +195,7 @@ const reviewProject = async () => {
       error_message = error.message;
       framework = tag || "Unknown";
     } finally {
-      await page.close(); // Closeing page to free up resources
+      await page.close(); // Closing page to free up resources
     }
 
     // Storing the review results for particular project
