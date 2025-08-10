@@ -38,6 +38,10 @@ project-reviewer/
 
 - Node.js (v18+ recommended)
 - NPM installed globally
+- Google Chrome (stable version) installed locally (
+   The script uses Lighthouse via `chrome-launcher`, which requires a local Chrome installation.
+   If Chrome is not in the default install path
+   Set the `CHROME_PATH` environment variable to the location of Chrome)
 
 
 ## 🧱 Installation
